@@ -14,7 +14,12 @@
 ## Sources and variables
 
 - Describe the variable to represent and how the data is produced
+  - Variables are referenced by/to;
+    - Variable Groups;
+    - Question Items --> Instruments --> Data Collection information e.g. mode, coverage
 - Describe the repetitive aspect
+  - Variables are referenced by the same conceptual variable within a single longitudinal study
+  - Conceptual variable groups are used to reference conceptual variables within more than one longitudinal study
 
 ## What do we want to represent?
 
@@ -23,8 +28,10 @@
 - A conceptual group and description will be created at a cross- study level
 - Open questions are representation / ontolgies for other contextual information for which Controlled vocabulaires exists
 - Existing vocabularies include mode, geographical coverage
-- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data,  
+- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data
+    
 ## Relevent resources:
-- https://doi.org/10.5281/zenodo.8001540
-- https://doi.org/10.5281/zenodo.8410617
-- https://wiki.ucl.ac.uk/display/CLOS/Topics 
+- https://doi.org/10.5281/zenodo.8001540 (Question driven equivalence - IAssist presentation)
+- https://doi.org/10.5281/zenodo.8410617 (Towards Metadata Driven Harmonisation - ESRA presentation)
+- https://wiki.ucl.ac.uk/display/CLOS/Topics (CLOSER variable/question groups)
+- https://wiki.ucl.ac.uk/pages/viewpage.action?pageId=62790771 (CLOSER DDI Profile)
