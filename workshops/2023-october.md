@@ -18,7 +18,10 @@ Expected outputs include guidelines on the topics covered, a roadmap for future 
 
 ### Day 1, morning
 
-- introductions, scoping of the workshop, definition of outcomes
+- introductions
+- scoping of the workshop
+- definition of outcomes
+- presentation on DDI objects for comparison of items
 - presentation and discussion of [use cases](../use-cases/)
 - review of literature and selection of references
 
