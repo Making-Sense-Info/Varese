@@ -25,10 +25,10 @@
 
 - Variables which originate from the same or comparable questions will be identified
 - A conceptual variable and description will be created at a study level
-- A conceptual group and description will be created at a cross- study level
-- Open questions are representation / ontolgies for other contextual information for which Controlled vocabulaires exists
-- Existing vocabularies include mode, geographical coverage
-- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data
+- A conceptual variable group and description will be created at a cross-study level
+- Open questions are:
+  - representation / ontolgies for other contextual information for which controlled vocabulaires already exist e.g. Existing vocabularies include mode, geographical coverage, respondent
+  - other contextual information which may be candidates for CVs could be explored, e.g. administrative data
     
 ## Relevent resources:
 - https://doi.org/10.5281/zenodo.8001540 (Question driven equivalence - IAssist presentation)
