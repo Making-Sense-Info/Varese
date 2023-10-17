@@ -28,32 +28,24 @@ In order to compare  the statistics over time one key aspect is to be sure that 
 
 The following example show how universe can be model logocicaly : 
 
-we have two variables called SHART1 from two sucessive studies. The second one is based on the first on to track the lineage.  we will call respectively these variables SHART1, la nouvelle variable, and SHART1_bo  the former variable referenced by the basedOn relation.
+we have two variables called SHART1 from two sucessive studies. The variables are linked by a basedOn relation.  we will call respectively these variables SHART1, la nouvelle variable, and SHART1_bo  the former variable referenced by the basedOn relation.
     
 The first variable we consider is SHART1, its Label is : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual. This variable as the universe { NUSEWEB = 1 }
 
 The value domain of this question is 
-    1 	
-    categories-16.png Yes
-    2 	
-    categories-16.png No
+    1 - Yes
+    2 - No
 
 The former variable SHART1_bo has a different universe : {Population Asked if NUSEWEB = 1 or 2}. The value domain is the same.
-    1 	
-    categories-16.png Yes
-    2 	
-    categories-16.png No
+    1 - Yes
+    2 - No
 
 where the representedVariable NUSEWEB is the Last personal use of the Internet with the following categories:
     
-    1 	
-    categories-16.png In the last three months
-    2 	
-    categories-16.png Between 3 months and one year
-    3 	
-    categories-16.png More than a year ago
-    4 	
-    categories-16.png Never used the internet
+    1 - In the last three months
+    2 - Between 3 months and one year
+    3 - More than a year ago
+    4 - Never used the internet
 
 So in these first case if we don't know the difference between the universe we cannot compare properly the statitics over time.
 
