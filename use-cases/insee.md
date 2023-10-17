@@ -24,39 +24,21 @@ The tree key aspects stand out from this analysis
 ### -1 Description of the universe in a formal way. 
 In order to compare  the statistics over time one key aspect is to be sure that the universe of interest is the same between the two questions. The producers spontaneously use a logical description of their universe of the variable. is helpfull in this way, The use of this formal description may facilitate description of evolution of the universe is helpfull in this way,.
 
-The following example show how universe can be model logocicaly and 
-    Name representedVariable SHART1
-Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
-Description
-Asked if NUSEWEB = 1
-Population
-universe-16.png Statistical population of individuals
-Representation Type
-Code list
-Selection Style
-Choose a
-Codes
-codes-16.png SHART1
 
+
+The following example show how universe can be model logocicaly : 
+
+we have two variables called SHART1 from two sucessive studies. The second one is based on the first on to track the lineage.  we will call respectively these variables SHART1, la nouvelle variable, and SHART1_bo  the former variable referenced by the basedOn relation.
+    
+The first variable we consider is SHART1, its Label is : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual. This variable as the universe { NUSEWEB = 1 }
+
+The value domain of this question is 
     1 	
     categories-16.png Yes
     2 	
     categories-16.png No
 
-Name of the representedVariable SHART1
-Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
-Description
-
-Population Asked if NUSEWEB = 1 or 2
- 
-universe-16.png Statistical population of individuals
-Representation Type
-Code list
-Selection Style
-Choose a
-Codes
-codes-16.png SHART1
-
+The former variable SHART1_bo has a different universe : {Population Asked if NUSEWEB = 1 or 2}. The value domain is the same.
     1 	
     categories-16.png Yes
     2 	
@@ -73,6 +55,7 @@ where the representedVariable NUSEWEB is the Last personal use of the Internet w
     4 	
     categories-16.png Never used the internet
 
+So in these first case if we don't know the difference between the universe we cannot compare properly the statitics over time.
 
 A more complexe of universe formally described is found with the RepresentedVariable RAISADM05 , that is asked if (NUSEWEB = 1 ou 2) and ADM3 = 2 and ADM4 = 2, where ADM3 is 
 
