@@ -33,7 +33,43 @@ is helpfull in this way, and the use of this formal description may facilitate d
     Concept change, or new wording to present the concept
 
 -3 correspondance table between the code and the filed to document the changes  
-    
+
+    Name representedVariable SHART1
+Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
+Description
+Asked if NUSEWEB = 1
+Population
+universe-16.png Statistical population of individuals
+Representation Type
+Code list
+Selection Style
+Choose a
+Codes
+codes-16.png SHART1
+
+    1 	
+    categories-16.png Yes
+    2 	
+    categories-16.png No
+
+Name of the representedVariable SHART1
+Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
+Description
+
+Population Asked if NUSEWEB = 1 or 2
+ 
+universe-16.png Statistical population of individuals
+Representation Type
+Code list
+Selection Style
+Choose a
+Codes
+codes-16.png SHART1
+
+    1 	
+    categories-16.png Yes
+    2 	
+    categories-16.png No
   
 - we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
 
