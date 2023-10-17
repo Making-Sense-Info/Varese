@@ -19,7 +19,7 @@
 - see [CLOSER document](../workshops/comparison-overview.md)
 - grouping / packaging (schemes, groupes, resource packages...)
   - CLOSER Topics levels 1 and 2
-  - Insee example from LFS 
+  - [Insee example](./insee.md)
 - relations (basedOn and others)
 - the cascade in DDI
 - universes and populations
@@ -29,7 +29,7 @@
 
 ## Use cases
 
-### For each use cases
+### For each use case
 
 - description
 - what do we want to formalize and why?
@@ -44,11 +44,11 @@
 - Insee [general use case](../use-cases/insee.md)
 - Insee [TCM use case](../use-cases/insee-tcm.md)
 
-## What do we need (more that DDI-L)?
+## What do we need (more than DDI-L)?
 
 - baseOn categories (cf. NACDA)
 
 ## Conclusions
 
-- DDI provides different tools, additional ones may be needed
+- DDI provides different tools, additional ones may be needed, some are in CDI
 - There is no perfect answer, it depends on multiple factors (effort in metadata modelling, needs of users, etc.)
