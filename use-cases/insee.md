@@ -22,7 +22,7 @@ a 'foundational' output would be A typology of 800 basedOn relationships could b
 The tree key aspects stand out from this analysis 
 
 ### -1 Description of the universe in a formal way. 
-In ordre to compare over the statistics one key aspect is to be sure that the universe of interest is the same between the two questions. The producers spontaneously use a logical description of their universe of the variable. is helpfull in this way, and the use of this formal description may facilitate description of evolution of the universe.
+In order to compare  the statistics over time one key aspect is to be sure that the universe of interest is the same between the two questions. The producers spontaneously use a logical description of their universe of the variable. is helpfull in this way, The use of this formal description may facilitate description of evolution of the universe is helpfull in this way,.
 
 The following example show how universe can be model logocicaly and 
     Name representedVariable SHART1
