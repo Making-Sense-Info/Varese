@@ -67,9 +67,8 @@ Ideas for DDI modelisation:
 - Parkinson's disease --> Concept
 - Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable
 - Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable
-- To be noted: can be also linked to the same ConceptualVariable, the representedVariable "Age of onset of Parkinson's disease" --> RepresentedVariable
-- Indicator for Parkinson's disease presence - raw data (Name: V42 Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
-- Indicator for Parkinson's disease presence - processed data (Name: V41, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
+- Indicator for Parkinson's disease presence - raw data (Name: V41 Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
+- Indicator for Parkinson's disease presence - processed/cleaned data (Name: V41, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
 
 
 The same model applied to 2015
@@ -79,12 +78,15 @@ The same model applied to 2015
 - Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable (the same ConceptualVariable as in 2014)
 - Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable (the same RepresentedVariable as in 2014)
 - Indicator for Parkinson's disease presence - raw data (Name: V42 Individuals over 18 years old at inclusion time in metropolitan France in 2015) --> InstanceVariable
-- Indicator for Parkinson's disease presence - processed data (Name: V42, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2015) --> InstanceVariable
+- Indicator for Parkinson's disease presence - processed/cleaned data (Name: V42, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2015) --> InstanceVariable
 
 - Should we link both instance Variable using BasedOn?
+- What is the data processing/cleaning and how to represent it?
+- Should we link instance variables from 2014 and 2015? How to reprensent instance variable lifecycle over time? Idea: Add based on reference across instance variables typed: "succeeds"
+- Should we have a physical instance describing the raw data and referencing instance variables?
+- Same question for processed data? 
 
 To be noted: can be also linked to the same ConceptualVariable, the representedVariable "Age of onset of Parkinson's disease" and so linked instance variable
-
 
 
 2. Link categories across questionnaires
@@ -94,10 +96,15 @@ To be noted: can be also linked to the same ConceptualVariable, the representedV
 - The question concerns pathologies since birth.
 - What we want is to link pathologies when they are :
   - identical
-  - similar
-
+  - similar (i.e. "Chronic bronchitis" versus "Chronic bronchitis, COPD, emphysema, respiratory failure")
 
 Ideas for DDI modelisation:
+
+- If pathologies are identical, principles for modelisation are similar. Differences are about Quesitonnaire, question, time periode.
+
+- If pathologies are similar, the same ideas for modelisation as before. Idea is to as a "similar" link between both concepts ("Chronic bronchitis" versus "Chronic bronchitis, COPD, emphysema, respiratory failure).
+
+
 
 
 
