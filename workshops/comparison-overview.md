@@ -71,24 +71,14 @@ graph BT
   Pol78Var[Party voted for in 1978] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation]
 ```
 
-If question information is available these relationships can also be expresed
-```mermaid
-graph BT
-  Pol90Var[Party voted for in 1990] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation]
-  Pol80Var[Party voted for in 1980] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation]
-  Pol78Var[Party voted for in 1978] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation]
-  Pol90Var[Party voted for in 1990] -- Question Reference --> Pol90[Which Party did you vote for in the 1990 General Election]
-  Pol80Var[Party voted for in 1980] -- Question Reference --> Pol80[Which Party did you vote for in the 1980 General Election]
-  Pol78Var[Party voted for in 1978]-- Question Reference  --> Pol78[Which Party did you vote for in the 1978 General Election]
-```
-
 If there is a repeated question is used, these relationships can also be expresed
 ```mermaid
-graph TB
-  PolConcept[Political Party Affiliation] --> Pol90Var[Party voted for in 1990]
-  PolConcept[Political Party Affiliation] --> Pol80Var[Party voted for in 1980]
-  PolConcept[Political Party Affiliation] --> Pol78Var[Party voted for in 1978]
-  Pol90Var[Party voted for in 1990] --> Pol[Which Party did you vote for in the last General Election]
-  Pol80Var[Party voted for in 1980] --> Pol[Which Party did you vote for in the last General Election]
-  Pol78Var[Party voted for in 1978] --> Pol[Which Party did you vote for in the last General Election]
+graph BT
+  Pol90Var[Party voted for in 1990] -- Question Reference --> PolQ[Which Party did you vote for in the last General Election]
+  Pol80Var[Party voted for in 1980] -- Question Reference ---> PolQ[Which Party did you vote for in the last General Election]
+  Pol78Var[Party voted for in 1978] -- Question Reference ---> PolQ[Which Party did you vote for in the last General Election]
+  Pol90Var[Party voted for in 1990] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation]
+  Pol80Var[Party voted for in 1980] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation] 
+  Pol78Var[Party voted for in 1978] -- Conceptual Variable Reference -->  PolConcept[Political Party Affiliation] 
+
 ```
