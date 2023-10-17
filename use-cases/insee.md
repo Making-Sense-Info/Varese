@@ -83,6 +83,53 @@ where the representedVariable NUSEWEB is the Last personal use of the Internet w
     categories-16.png Never used the internet
 
 
+A more complexe of universe formally described is found with the RepresentedVariable RAISADM05 , that is asked if (NUSEWEB = 1 ou 2) and ADM3 = 2 and ADM4 = 2, where ADM3 is 
+
+Name of the representedVariable ADM3
+Label 
+In the last twelve months, the respondent has used the Internet for private purposes to contact a government department or public service in order to complete their tax return online.
+Description
+
+Asked if NUSEWEB = 1 or 2
+Population
+universe-16.png Statistical population of individuals
+Representation Type
+Code list
+Selection Style
+Choose a
+Codes
+codes-16.png ADM3
+
+    1 	
+    categories-16.png Yes
+    2 	
+    categories-16.png No
+
+
+ADM4 
+Name
+ADM4
+Wording
+During the last twelve months, apart from professional use, the respondent has not used the website or application of an administration or public service to access his/her personal data or information.
+Description
+
+Asked if NUSEWEB = 1 or 2
+Population
+universe-16.png Statistical population of individuals
+Representation Type
+Code list
+Selection Style
+Choose a
+Codes
+codes-16.png ADM4
+
+    1 	
+    categories-16.png Yes
+    2 	
+    categories-16.png No
+
+
+    
   
 - we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
 
