@@ -17,44 +17,52 @@
 ## What does DDI-L provide?
 
 DDI-Lifecycle provides a range of different structures which can used alone or in combination to manage item types.
-Item types tructures which are important to the use cases
-- Variables Iinstance variables)
-  - code lists
-  - categories
-  - substantive / sentinenl values
-- Questions
-  - response domains
-- Universes
-- Populations
-- Measurement
+Item types structures which are important to the use cases include
 - Concepts
 - Conceptual Variables
 - Represented Variables
+- Variables (Instance variables)
+  - code lists
+    - code value
+    - categories
+  - numeric representation
+  - substantive (valid) / sentinel (invalid) values
+- Questions
+  - response domains
+- Universes
+  - Population
+    - Spatial
+    - Temporal
+- Unit type
+- Measurement
 
 ## Controlled Vocabularies
+Controlled vocabularies (standardised and organised arrangements of words and phrases and provide a consistent way to describe data) though not specific to DDI-L they can be used to describe the usage of a specific item type. An example is type of instrument used in data collection: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument?lang=en 
 
 ### Schemes
 These are for organising a single item type, such as questions, variables, universes and code lists to support management and reuse across an organistion.
 
-### Groups
-These structures assist discovery and organisation of item types by
+### [Groups](../workshops/comparison-overview.md#grouping)
+These structures support discovery and organisation of item types by
 - referencing a specific item type within one or many schemes, e.g. variables related to Age
   - CLOSER Topics Level 1 and 2
   - Insee example from LFS 
-- group the same item type which are not managed in a scheme e.g. waves of data collection in an ongoing study
+- group the same item types which are not managed in a scheme e.g. waves of data collection in an ongoing study
   - CLOSER 
 
-### Relationships
-These support the definition of the location and type of a object being referenced for example variable representation can be described as code list and a reference to the target URN of the object code list. A code list can be referenced from many variables supporting reuse of a code list.
+### [Relationships](../workshops/comparison-overview.md#relationships)
+These support the definition of the location and type of a object being referenced for example variable representation can be described as code list and a reference to the target URN of the object code list. A code list can be referenced from many variables supporting its reuse.
 
-BasedOn supports annotation of the relationship with a textual description and / or controlled vocabulary. This supports the provenance of a specific item type to the same item type. e.g. variable B is based on Variable A 
+[BasedOn](../workshops/comparison-overview.md#basedon) supports annotation of the relationship between a specific item type to the same item type, with a textual description and / or controlled vocabulary that describes the nature of the relationship. This supports the provenance of a specific item type to the same item type. e.g. variable B is based on Variable A. 
 
-### Variable Cascade
+### [Variable Cascade](../workshops/comparison-overview.md#variable-cascade0
 Supports the specialisation of variables with a reference
-Conceptual -> Represented -> Variable (instance)
+Conceptual -> Represented -> (Instance) Variable
+*Note inherited item types are in* **bold**)
 
-- see [CLOSER document](../workshops/comparison-overview.md)
-
+- Conceptual variable (concept + unit type)
+- Represented variable (**concept + unit type** + value representation (substantive values))
+- (Instance) Variable (**concept + unit type** + variable representation (**substantive** + sentinal values), universe reference, measurement, question reference etc)
 
 ## Use cases
 
