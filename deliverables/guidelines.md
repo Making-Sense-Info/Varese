@@ -55,7 +55,7 @@ These support the definition of the location and type of a object being referenc
 
 [BasedOn](../workshops/comparison-overview.md#basedon) supports annotation of the relationship between a specific item type to the same item type, with a textual description and / or controlled vocabulary that describes the nature of the relationship. This supports the provenance of a specific item type to the same item type. e.g. variable B is based on Variable A. 
 
-### [Variable Cascade](../workshops/comparison-overview.md#variable-cascade0
+### [Variable Cascade](../workshops/comparison-overview.md#variable-cascade)
 Supports the specialisation of variables with a reference
 Conceptual -> Represented -> (Instance) Variable
 *Note inherited item types are in* **bold**)
