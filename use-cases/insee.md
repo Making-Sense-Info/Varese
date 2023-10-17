@@ -24,16 +24,6 @@ The tree key aspects stand out from this analysis
 -1 Description of the universe in a formal way. The producers spontaneously use a logical description of their universe of the variable. The use of UniverseGenerationCode
 is helpfull in this way, and the use of this formal description may facilitate description of evolution of the universe.
 
--2 Mapping information between variables (good one create on ontology to qualify the basedOn relation sustainability)
-    • Mapping with a previous variable announcing they are consistant
-    • Link with  a weighting variable;
-        ◦ panel (longitudinal or one point in time analysis);
-    • Caveats indicating the sucessive variables are not consistant;
-    • Variable built based one or several variables ;
-    Concept change, or new wording to present the concept
-
--3 correspondance table between the code and the filed to document the changes  
-
     Name representedVariable SHART1
 Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
 Description
@@ -128,14 +118,32 @@ codes-16.png ADM4
     2 	
     categories-16.png No
 
+several possibilites to handle universe define logicaly , 
+- use a UniverseGenerationCode,
+- use a the definition of a sub-universe
+- use intersection of mulitple references to universe
+- use the link with the question and the vairable. 
 
-    
+modelling of each case to be proposed 
   
 - we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
 
 - depiction of our strategy and the question we want to raise with LFS
   
 - proposals or questions on the DDI L model could be formulated if necessary and possible. 
+
+
+
+
+-2 Mapping information between variables (good one create on ontology to qualify the basedOn relation sustainability)
+    • Mapping with a previous variable announcing they are consistant
+    • Link with  a weighting variable;
+        ◦ panel (longitudinal or one point in time analysis);
+    • Caveats indicating the sucessive variables are not consistant;
+    • Variable built based one or several variables ;
+    Concept change, or new wording to present the concept
+
+-3 correspondance table between the code and the filed to document the changes  
 
 
 ## what do we want to formalize and why?
