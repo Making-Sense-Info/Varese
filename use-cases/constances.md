@@ -54,11 +54,39 @@ Instrument: Inclusion V2
 ### General idea: follow pathologies over time
 
 1. Code added between two follow-up
-- Follow-up questionnaires
+- Follow-up questionnaires (code named F-*yyyy*)
 - A question that captures the pathologies declared by the individual. The response domain is a list of pathologies.
-- The following year, the code for osteoporosis has been added to the list. This implies shifted code values. On the other hand, categories are retained
+- The following year, the code for osteoporosis has been added to the list. This implies shifted code values (i.e. code value for "Parkinson's disease" moved from 41 to 42 between 2014 and 2015). On the other hand, categories are retained.
 - The question is about the last 12 months
-  
+
+Problem: this is a multiple-choice question whose variable can be considered a vector variable collecting code values, as is the case in the current implementation of Constances. Because we don't know how to model it in DDI, the use case and its modelisation has been interpreted as add a new variable...maybe not an interesting use case...
+
+Ideas for DDI modelisation:
+- Questionnaire F-2014 --> Instrument
+- Question Pathologie 2014 --> QuestionItem
+- Parkinson's disease --> Concept
+- Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable
+- Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable
+- To be noted: can be also linked to the same ConceptualVariable, the representedVariable "Age of onset of Parkinson's disease" --> RepresentedVariable
+- Indicator for Parkinson's disease presence - raw data (Name: V42 Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
+- Indicator for Parkinson's disease presence - processed data (Name: V41, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2014) --> InstanceVariable
+
+
+The same model applied to 2015
+- Questionnaire F-2015 --> Instrument
+- Question Pathologie 2015 (based on the 2014 Question Pathologie) --> QuestionItem
+- Parkinson's disease --> Concept (the same concept as in 2014)
+- Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable (the same ConceptualVariable as in 2014)
+- Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable (the same RepresentedVariable as in 2014)
+- Indicator for Parkinson's disease presence - raw data (Name: V42 Individuals over 18 years old at inclusion time in metropolitan France in 2015) --> InstanceVariable
+- Indicator for Parkinson's disease presence - processed data (Name: V42, Population: Individuals over 18 years old at inclusion time in metropolitan France in 2015) --> InstanceVariable
+
+- Should we link both instance Variable using BasedOn?
+
+To be noted: can be also linked to the same ConceptualVariable, the representedVariable "Age of onset of Parkinson's disease" and so linked instance variable
+
+
+
 2. Link categories across questionnaires
 - Medical Questionnaire (part of inclusion process)
 - Asked by the doctor (intermediary)
@@ -67,3 +95,12 @@ Instrument: Inclusion V2
 - What we want is to link pathologies when they are :
   - identical
   - similar
+
+
+Ideas for DDI modelisation:
+
+
+
+----
+- V17 (osteoporosis)
+- V18 Polyarthrite (code value 18)
