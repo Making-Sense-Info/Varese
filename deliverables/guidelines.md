@@ -42,7 +42,7 @@ Controlled vocabularies (standardised and organised arrangements of words and ph
 ### Schemes
 These are for organising a single item type, such as questions, variables, universes and code lists to support management and reuse across an organistion.
 
-### Groups
+### [Groups](../workshops/comparison-overview.md#grouping)
 These structures support discovery and organisation of item types by
 - referencing a specific item type within one or many schemes, e.g. variables related to Age
   - CLOSER Topics Level 1 and 2
@@ -50,12 +50,12 @@ These structures support discovery and organisation of item types by
 - group the same item types which are not managed in a scheme e.g. waves of data collection in an ongoing study
   - CLOSER 
 
-### Relationships
+### [Relationships](../workshops/comparison-overview.md#relationships)
 These support the definition of the location and type of a object being referenced for example variable representation can be described as code list and a reference to the target URN of the object code list. A code list can be referenced from many variables supporting its reuse.
 
-BasedOn supports annotation of the relationship between a specific item type to the same item type, with a textual description and / or controlled vocabulary that describes the nature of the relationship. This supports the provenance of a specific item type to the same item type. e.g. variable B is based on Variable A. 
+[BasedOn](../workshops/comparison-overview.md#basedon) supports annotation of the relationship between a specific item type to the same item type, with a textual description and / or controlled vocabulary that describes the nature of the relationship. This supports the provenance of a specific item type to the same item type. e.g. variable B is based on Variable A. 
 
-### Variable Cascade
+### [Variable Cascade](../workshops/comparison-overview.md#variable-cascade0
 Supports the specialisation of variables with a reference
 Conceptual -> Represented -> (Instance) Variable
 *Note inherited item types are in* **bold**)
@@ -63,8 +63,6 @@ Conceptual -> Represented -> (Instance) Variable
 - Conceptual variable (concept + unit type)
 - Represented variable (**concept + unit type** + value representation (substantive values))
 - (Instance) Variable (**concept + unit type** + variable representation (**substantive** + sentinal values), universe reference, measurement, question reference etc)
-
-- see [CLOSER document](../workshops/comparison-overview.md)
 
 ## Use cases
 
