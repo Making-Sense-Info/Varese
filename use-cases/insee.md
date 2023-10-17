@@ -144,6 +144,9 @@ modelling of each case to be proposed
     • Variable built based one or several variables ;
     Concept change, or new wording to present the concept
 
+a proposal from gesis https://vocabularies.cessda.eu/vocabulary/Variables-Relations?lang=en   (we can register in a sense to participate in the construction and evolution of this proposal)
+a proposal form NACDA 
+
 -3 correspondance table between the code and the filed to document the changes  
 
 
