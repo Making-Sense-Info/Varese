@@ -70,6 +70,18 @@ codes-16.png SHART1
     categories-16.png Yes
     2 	
     categories-16.png No
+
+where the representedVariable NUSEWEB is the Last personal use of the Internet with the following categories:
+    1 	
+    categories-16.png In the last three months
+    2 	
+    categories-16.png Between 3 months and one year
+    3 	
+    categories-16.png More than a year ago
+    4 	
+    categories-16.png Never used the internet
+
+
   
 - we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
 
