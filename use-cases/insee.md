@@ -21,9 +21,10 @@ a 'foundational' output would be A typology of 800 basedOn relationships could b
 
 The tree key aspects stand out from this analysis 
 
--1 Description of the universe in a formal way. The producers spontaneously use a logical description of their universe of the variable. The use of UniverseGenerationCode
-is helpfull in this way, and the use of this formal description may facilitate description of evolution of the universe.
+### -1 Description of the universe in a formal way. 
+In ordre to compare over the statistics one key aspect is to be sure that the universe of interest is the same between the two questions. The producers spontaneously use a logical description of their universe of the variable. is helpfull in this way, and the use of this formal description may facilitate description of evolution of the universe.
 
+The following example show how universe can be model logocicaly and 
     Name representedVariable SHART1
 Label : Transport service: the individual has used a dedicated website or application (such as OUICAR, Koolicar, covoiturage-libre, etc.) in the last twelve months to obtain a transport service from a private individual.
 Description
