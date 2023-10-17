@@ -51,3 +51,19 @@ Instrument: Inclusion V2
 - (BasedOn Previous question) How often do you drink juice or nectar?
   - Instance variable: AQ_ALIM_FreqConsjusPJ_n
 
+### General idea: follow pathologies over time
+
+1. Code added between two follow-up
+- Follow-up questionnaires
+- A question that captures the pathologies declared by the individual. The response domain is a list of pathologies.
+- The following year, the code for osteoporosis has been added to the list. This implies shifted code values. On the other hand, categories are retained
+- The question is about the last 12 months
+  
+2. Link categories across questionnaires
+- Medical Questionnaire (part of inclusion process)
+- Asked by the doctor (intermediary)
+- A question on pathologies is also asked, with a slightly different list of pathologies.
+- The question concerns pathologies since birth.
+- What we want is to link pathologies when they are :
+  - identical
+  - similar
