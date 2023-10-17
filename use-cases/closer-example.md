@@ -18,10 +18,10 @@ StudyUnit: ALSPAC Childhood (5 years to 12 years 11 months)
 
 ##Problem – Across Study: Researcher needs to find similar variables across longitudinal population study (LPS) for potential harmonisation. 
 ##Potential DDI solution - Create relationships between the similar variables across study waves using the variable cascade plus additional grouping.
-Each LPS ConceptualVariable within a Group (LPS) which has a similar underlying concept (e.g ever smoked, see figure below) can be grouped together into a conceptual group.
-Example – Ever smoked conceptual group with longitudinal variables from ALSPAC and NSHD LPS
+Each LPS ConceptualVariable within a Group (LPS) which has a similar underlying concept (e.g ever smoked, see figure below) can be grouped together into a conceptual variable group.
+Example – Ever smoked conceptual variable group with longitudinal variables from ALSPAC and NSHD LPS
 Groups: ALSPAC and NSHD
-Conceptual Group: Ever smoked
+Conceptual variable group: Ever smoked
 
 QuestionText: Have you ever smoked as much as one cigarette per day for as long as a year?
 InstanceVariable label: Have you ever smoked as much as 1 cigarette/day?
