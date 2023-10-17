@@ -136,7 +136,7 @@ modelling of each case to be proposed
 
 
 
--2 Mapping information between variables (good one create on ontology to qualify the basedOn relation sustainability)
+### -2 Mapping information between variables (good one create on ontology to qualify the basedOn relation sustainability)
     • Mapping with a previous variable announcing they are consistant
     • Link with  a weighting variable;
         ◦ panel (longitudinal or one point in time analysis);
