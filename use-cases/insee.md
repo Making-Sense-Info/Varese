@@ -119,7 +119,7 @@ codes-16.png ADM4
     2 	
     categories-16.png No
 
-several possibilites to handle universe define logicaly , 
+several possibilites to handle universe defined logicaly , 
 - use a UniverseGenerationCode,
 - use a the definition of a sub-universe
 - use intersection of mulitple references to universe
