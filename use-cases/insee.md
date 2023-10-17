@@ -61,13 +61,6 @@ several possibilites to handle universe defined logicaly ,
 - use intersection of mulitple references to universe
 - use the link with the question and the vairable. 
 
-modelling of each case to be proposed 
-  
-- we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
-
-- depiction of our strategy and the question we want to raise with LFS
-  
-- proposals or questions on the DDI L model could be formulated if necessary and possible. 
 
 
 
@@ -97,3 +90,10 @@ a proposal form NACDA
  
 
 
+modelling of each case to be proposed 
+  
+- we could open the discussion by analysing the gap between what exists and what should be used (in terms of representation, universe) to improve the documentation and actionability of metadata in a repetitive context.
+
+- depiction of our strategy and the question we want to raise with LFS
+  
+- proposals or questions on the DDI L model could be formulated if necessary and possible. 
