@@ -3,7 +3,7 @@
 ## Grouping
 
 ### Variable and Question Groups
-Use of These specialised structures allow a list of references to items which can be grouped normally to a controlled vocabulary
+Use of these specialised structures allows a list of references to items which can be grouped themetically normally to a controlled vocabulary.
 Variable Groups example: https://discovery.closer.ac.uk/Item/uk.closer/766a9222-4c66-4f84-9259-b78ceda9ceab/1
 ```mermaid
 graph LR
@@ -22,7 +22,7 @@ WellC[Wellness Questions-CAPI]  -- BasedOn --> WellP[Wellness Questions-Paper]
 WellT[Wellness Questions-Telephone] -- BasedOn --> WellP[Wellness Questions-Paper]
 WellW[Wellness Questions-Web] -- BasedOn --> WellP[Wellness Questions-Paper]
 ```
-#### Lifecycle evolution of a question and variable
+#### Lifecycle evolution of a question and resulting variables
 ```mermaid
 graph TB
   Pol90[Which Party did you vote for in the 1990 General Election] -- BasedOn -->  Pol80[Which Party did you vote for in the 1980 General Election]
@@ -52,7 +52,7 @@ graph TB
   PolConcept[Political Party Affiliation] --> PolRep2 --> Pol78Var[Party voted for in 1978]
 ```
 
-The variable cascade does not require all three to be specified.
+The variable cascade does not require all three to be specified, for example, omitting the representation
 - A conceptual variable
 - Instance variables
 ```mermaid
@@ -73,7 +73,7 @@ graph TB
   Pol78Var[Party voted for in 1978] --> Pol78[Which Party did you vote for in the 1978 General Election]
 ```
 
-If same question ithese relationships can also be expresed
+If there is a repeated question is used, these relationships can also be expresed
 ```mermaid
 graph TB
   PolConcept[Political Party Affiliation] --> Pol90Var[Party voted for in 1990]
