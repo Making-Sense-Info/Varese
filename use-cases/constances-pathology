@@ -1,4 +1,4 @@
-### General idea: follow pathologies over time
+## General idea: follow pathologies over time
 
 1. Code added between two follow-up
 - Follow-up questionnaires (code named F-*yyyy*)
@@ -7,6 +7,26 @@
 - The question is about the last 12 months
 
 Problem: this is a multiple-choice question whose variable can be considered a vector variable collecting code values, as is the case in the current implementation of Constances. Because we don't know how to model it in DDI, the use case and its modelisation has been interpreted as add a new variable...maybe not an interesting use case...
+
+Data organisation currently in Constances
+
+| Volunteer | Follow-Up | Pathology code value| Pathology label |
+| -------- | -------- | -------- | -------- |
+| V    | F2014     | 3 | Hypertension |
+| V | F2014 | 41 | Parkinson disease |
+| V    | F2015     | 3 | Hypertension |
+| V | F2015 | 42 | Parkinson disease |
+
+Researchers use to to compute data based on pathology label.
+
+Data organisation considering DDI modelisation
+
+| Volunteer | Follow-Up | Hypertension | Parkinson disease | Alzheimer disease |
+|-----------|-----------|--------------|-------------------|-------------------|
+| V         | F2014     | 1            | 1                 | 0                 |
+| V         | F2015     | 1            | 1                 | 0                 |
+
+
 
 Ideas for DDI modelisation:
 - Questionnaire F-2014 --> Instrument
