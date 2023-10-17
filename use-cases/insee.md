@@ -72,6 +72,7 @@ codes-16.png SHART1
     categories-16.png No
 
 where the representedVariable NUSEWEB is the Last personal use of the Internet with the following categories:
+    
     1 	
     categories-16.png In the last three months
     2 	
