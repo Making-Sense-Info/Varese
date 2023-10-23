@@ -16,5 +16,7 @@ Beyond the representation of variables, the work will also cover their organizat
 
 ### References
 
+- [CLOSER Profile](https://wiki.ucl.ac.uk/pages/viewpage.action?pageId=62790771) for DDI Lifecycle
 - A controlled vocabulary for a social science knowledge graph: better definition of relationships ([presentation](https://zenodo.org/record/8092028), [vocabulary](https://vocabularies.cessda.eu/vocabulary/Variables-Relations?lang=en))
 - DDI-Lifecycle Best Practice BasedOn Section 4.3 ([Document](https://ddialliance.org/sites/default/files/DDI%203.2%20Best%20Practices_0.pdf))
+- [SciencesPo paper](https://sciencespo.hal.science/hal-03956495) on the strategy to document and disseminate longitudinal surveys
