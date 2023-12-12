@@ -13,6 +13,8 @@ The general idea is to follow pathologies over time. Two different micro uses ca
 
 A multiple-choice question captures the pathology suffered by the individual over the last 12 months. The response domain is a list of pathologies. The following year, the code for "osteoporosis" has been added to the list. This implies shifted code values (i.e. code value for "Parkinson's disease" moved from 41 to 42 between 2014 and 2015). On the other hand, categories are retained.
 
+The question is: retrieve data about Parkinson's disease
+
 Problem: this is a multiple-choice question whose variable can be considered a vector variable collecting code values, as is the case in the current implementation of Constances. Because we don't know how to model it in DDI, the use case and its modelisation has been interpreted as add a new variable...
 
 Data organisation currently in Constances
@@ -39,6 +41,8 @@ A question on pathologies since birth is asked in the medical questionnaire, wit
   - identical
   - similar (i.e. "Chronic bronchitis" versus "Chronic bronchitis, COPD, emphysema, respiratory failure")
 
+The question is: retrieve data about Chronic bronchitis or similar concept.
+
 ## Sources and variables
 - Describe the variable to represent and how the data is produced
 - Describe the repetitive aspect
@@ -51,7 +55,7 @@ A question on pathologies since birth is asked in the medical questionnaire, wit
 
 Ideas for DDI modelisation:
 - Questionnaire F-2014 --> Instrument
-- Question Pathologie 2014 --> QuestionGrid
+- Question Pathologie 2014 --> QuestionGrid (first dimension is a code list)
 - Parkinson's disease --> Concept
 - Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable
 - Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable
@@ -60,7 +64,7 @@ Ideas for DDI modelisation:
 
 The same model applied to 2015
 - Questionnaire F-2015 --> Instrument
-- Question Pathologie 2015 (based on the 2014 Question Pathologie) --> QuestionGrid
+- Question Pathologie 2015 (based on the 2014 Question Pathologie) --> QuestionGrid (first dimension is a code list reusing categories of the 2014 code list)
 - Parkinson's disease --> Concept (the same concept as in 2014)
 - Measure for Parkinson's disease (UnitType: Individual) --> ConceptualVariable (the same ConceptualVariable as in 2014)
 - Indicator for Parkinson's disease presence  (Representation: boolean/nominal?, Universe: Individuals over 18 years old at inclusion time) --> RepresentedVariable (the same RepresentedVariable as in 2014)
