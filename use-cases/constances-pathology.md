@@ -6,14 +6,13 @@
 *The data collected via this protocol is then cleaned before being made available to the scientific community.*
 
 ## General description
-Constances cohort captures pathologies suffered by the individual the last 12 months. In 2015, "osteoporosis" has been added within the list of disease. This implied shifted code values (i.e. code value for "Parkinson's disease" moved from 41 to 42 between 2014 and 2015). On the other hand, categories were retained.
-The user wants to retrieve data about Parkinson's disease over time.
-Researchers usually compute results based on the pathology label (most stable information).
+Constances cohort captures pathologies suffered by the individual the last 12 months. In 2015, "osteoporosis" has been added within the list of diseases. This led to a shift in code values (i.e. code value for "Parkinson's disease" moved from 41 to 42 between 2014 and 2015). On the other hand, categories were retained.
+Researchers want to retrieve data about Parkinson's disease over time. The usually compute results based on the pathology label (most stable information).
 
 ## Sources and variables
-A multiple-choice question captures the pathology suffered by the individual over the last 12 months. Each choice is represented by one checkbox.
+A multiple-choice question captures pathologie suffered by the individual over the last 12 months. Each choice is represented by one checkbox.
 
-Data is stored in a vector variable where for each follow-Up questionnaire and for each volunteer, pathology code value and pathology label are indicated where checkbox is checked.
+Data is stored in a variable where for each follow-Up questionnaire and for each volunteer, pathology code value and pathology label are indicated where checkbox is checked.
 
 Below is an example:
 
@@ -27,9 +26,9 @@ Below is an example:
 By definition of the general context (see introduction), variables are repeated over time. 
 
 ## What do we want to represent?
-- Detail on what specific aspects of variable representation are important in the context (e.g. lineage, evolutions of concept or representation, etc.)
 ### Specific problem of representation
-As previously mentionned, Constances organizes its data on pathologies in a vector variable. Because we don't know how to model this in DDI, data organization has been re-considered as one variable per pathology with boolean value stored.
+
+Considering the multiple-choice question, we are not able to model a unique variable (a kind of vector variable) for collecting all the values. So, we have reconsidered data organization as one variable per pathology with a boolean value stored.
 
 Below is the example of the new data organization:
 
