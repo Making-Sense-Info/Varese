@@ -13,11 +13,11 @@ The general idea is to follow pathologies over time. Two different micro uses ca
 
 A multiple-choice question captures the pathology suffered by the individual over the last 12 months. The response domain is a list of pathologies. The following year, the code for "osteoporosis" has been added to the list. This implies shifted code values (i.e. code value for "Parkinson's disease" moved from 41 to 42 between 2014 and 2015). On the other hand, categories are retained.
 
-The question is: retrieve data about Parkinson's disease
+The user wants to retrieve data about Parkinson's disease over time.
 
-Problem: this is a multiple-choice question whose variable can be considered a vector variable collecting code values, as is the case in the current implementation of Constances. Because we don't know how to model it in DDI, the use case and its modelisation has been interpreted as add a new variable...
+Problem: this is a multiple-choice question whose variable can be considered a vector variable collecting code values, as is the case in the current implementation of Constances. Because we don't know how to model this in DDI, the use case and its modelisation has been interpreted as adding a new variable...
 
-Data organisation currently in Constances
+Current data organisation in Constances:
 
 | Volunteer | Follow-Up | Pathology code value| Pathology label |
 | -------- | -------- | -------- | -------- |
@@ -26,9 +26,9 @@ Data organisation currently in Constances
 | V    | F2015     | 3 | Hypertension |
 | V | F2015 | 42 | Parkinson disease |
 
-Researchers use to to compute data based on pathology label.
+Researchers usually compute results based on the pathology label.
 
-Data organisation considering DDI modelisation
+Data organisation considering the DDI modelisation:
 
 | Volunteer | Follow-Up | Hypertension | Parkinson disease | Alzheimer disease |
 |-----------|-----------|--------------|-------------------|-------------------|
