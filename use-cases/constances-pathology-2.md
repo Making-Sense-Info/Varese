@@ -19,4 +19,4 @@ A multiple-choice question in the follow-up questionnaire captures pathologie su
 
 ## What do we want to represent?
 
-What we want to represent is the link between concepts formalising that "Chronic bronchitis" and "Chronic bronchitis" are similar.
+What we want to represent is the link between concepts attached to variables formalising that "Chronic bronchitis" and "Chronic bronchitis, COPD, emphysema, respiratory insufficiency" are similar.
