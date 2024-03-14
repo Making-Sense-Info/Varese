@@ -7,7 +7,7 @@
 
 ## Objectives
 
-This workshop will study the representation of variables in DDI Lifecycle, specifically in iterative contexts: panels, cohorts, repeated surveys, periodic administrative files, etc. Il will build on the results already obtained during a [previous workshop](./2023-october.md) held in October 2023 with the participation of CLOSER, Constances and Insee teams.
+This workshop will study the representation of variables in DDI Lifecycle, specifically in iterative contexts: panels, cohorts, repeated surveys, periodic administrative files, etc. It will build on the results already obtained during a [previous workshop](./2023-october.md) held in October 2023 with the participation of CLOSER, Constances and Insee teams.
 
 Beyond the representation of variables, the workshop will also cover their organization into schemes and resource packages, and their relationships with other objects such as study units, physical instances, code lists, managed representations, etc.
 
