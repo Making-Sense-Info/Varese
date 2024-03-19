@@ -26,13 +26,13 @@ Ideas for DDI modelisation:
 Instrument: Follow-up 2014 
 - Concept: Fruit consumption
   - Question: How often do you eat raw or cooked fruit (including 100% fruit juice)? / À quelle fréquence consommez-vous des fruits crus ou cuits (y compris les jus 100% fruit) ?
-    - InstanceVariable: AQ_ALIM_FreqConsFruit
+    - InstanceVariable: Frequency of eating or drinking fruits - AQ_ALIM_FreqConsFruit
 
 Instrument: Follow-up 2015
 - Concept: Fresh fruit consumption / Consommation de fruits frais?
-- (BasedOn Previous question) How often do you eat fresh fruit (including pressed fruit)? / À quelle fréquence mangez-vous des fruits frais (y compris fruits pressés)?
-  - Instance variable: AQ_ALIM_FreqConsFruitCPJ_n
+- (Splitted question based on previous question) How often do you eat fresh fruit (including pressed fruit)? / À quelle fréquence mangez-vous des fruits frais (y compris fruits pressés)?
+  - Instance variable: Frequency of eating fresh fruits - AQ_ALIM_FreqConsFruitCPJ_n
 
 - Concept: Fruit juice consumption / Consommation de jus de fruit?
-- (BasedOn Previous question) How often do you drink juice or nectar?
-  - Instance variable: AQ_ALIM_FreqConsjusPJ_n
+- (Splitted question based on previous question) How often do you drink fruit juice or nectar?
+  - Instance variable: Frequency of drinking fruits juice or nectar - AQ_ALIM_FreqConsjusPJ_n
