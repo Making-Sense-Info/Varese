@@ -28,6 +28,6 @@ Also, if a person is employed, we will ask for its profession through a dedicate
 We want to be able to:
 
 - __track changes of variables__: in the example above, the employment status in 2019 is collected via the variable `SITUA`, in 2020 it is `SITUAEU`, the european variable
-	- both the name and the response domain have changed
+	- both the name and the representation have changed
 	- we want to be able to link those variables one way or another
 - __track changes in response domains__: in 2020 the new version of the official classification ([PCS](https://fr.wikipedia.org/wiki/Professions_et_cat%C3%A9gories_socioprofessionnelles_en_France)) has changed
