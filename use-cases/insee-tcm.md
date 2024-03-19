@@ -20,7 +20,7 @@ For each person in the dwelling the name (`PRENOM`), sex (`SEXE`) and age (`AGE`
 | 2020        | Alice  | 40  | 1                 |
 | 2020        | Bob    | 16  | 5                 |
 
-In 2029, the employment status of Alice is 'employed' (code `1`), but we don't have a value for Bob who is not in the scope (we only want this information for 15+ people). In 2020, Bob is in the scope, so we get his status (`5`, a student).
+In 2019, the employment status of Alice is 'employed' (code `1`), but we don't have a value for Bob who is not in the scope (we only want this information for 15+ people). In 2020, Bob is in the scope, so we get his status (`5`, a student).
 
 Also, if a person is employed, we will ask for its profession through a dedicated classification - which of course evolves.
 ## What do we want to represent ?
