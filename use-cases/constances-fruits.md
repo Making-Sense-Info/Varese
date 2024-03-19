@@ -6,30 +6,29 @@
 *The data collected via this protocol is then cleaned before being made available to the scientific community.*
 ## General description
 
-In order to meet the requirements of researchers and various institutions using Constances data, a clear and precise description of the different available variables (at inclusion and follow-up) must be accessible. For this first use cases, we propose to focus on data about the consumption of fruits and juices.
-Researchers want to retrieve data about the consumption of fruits (?).
+Constances cohort captures data about fruits consumption in the follow-up questionnaires. In 2015, the variable on the frequency of fruit consumption was split into two variables : frequency of fresh fruits consumption and frequency of drink juice consumption.
+Researchers want to retrieve data about the consumption of fruits and know the variable lifecycle.
 
 ## Sources and variables
 
-A single choice question in the inclusion questionnaire V1 captures the frequency of comsumption of fruits. Each choice is represented by a checkbox.
-
-A single choice question in the inclusion questionnaire V2 captures the frequency of comsumption of fresh fruits. Each choice is represented by a checkbox.
+A single choice question in the follow-up questionnaire 2014 captures the frequency of comsumption of fruits. Each choice is represented by a checkbox.
+From 2015, one single choice question in the follow-up questionnaire captures the frequency of consumption of fresh fruits. Another question captures the frequency of consumption of drink juice. Each choice is represented by a checkbox.
 
 
 ## What do we want to represent?
-*To be completed*
+What we want to represent is the link between variables dealing with the highest level concept "fruits consumption" over time and the split into two variables.
 
 ## Precise example in pseudo-DDI
 Ideas for DDI modelisation:
 
-![img](./img/constances-use-case-fruits.jpg)
+![img](./img/constances-use-case-fruits.png)
 
-Instrument: Inclusion V1 
+Instrument: Follow-up 2014 
 - Concept: Fruit consumption
   - Question: How often do you eat raw or cooked fruit (including 100% fruit juice)? / À quelle fréquence consommez-vous des fruits crus ou cuits (y compris les jus 100% fruit) ?
     - InstanceVariable: AQ_ALIM_FreqConsFruit
 
-Instrument: Inclusion V2
+Instrument: Follow-up 2015
 - Concept: Fresh fruit consumption / Consommation de fruits frais?
 - (BasedOn Previous question) How often do you eat fresh fruit (including pressed fruit)? / À quelle fréquence mangez-vous des fruits frais (y compris fruits pressés)?
   - Instance variable: AQ_ALIM_FreqConsFruitCPJ_n
