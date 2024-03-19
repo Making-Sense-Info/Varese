@@ -11,7 +11,7 @@ Researchers want to retrieve data about the consumption of fruits and know the v
 
 ## Sources and variables
 
-A single choice question in the follow-up questionnaire 2014 captures the frequency of comsumption of fruits. Each choice is represented by a checkbox.
+A single choice question in the follow-up questionnaire 2014 captures the frequency of consumption of fruits. Each choice is represented by a checkbox.
 From 2015, one single choice question in the follow-up questionnaire captures the frequency of consumption of fresh fruits. Another question captures the frequency of consumption of drink juice. Each choice is represented by a checkbox.
 
 
