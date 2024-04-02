@@ -91,13 +91,18 @@ a proposal from gesis https://vocabularies.cessda.eu/vocabulary/Variables-Relati
 The categories we could propose to expand the controlled vocabulary from GESIS is 
 
 IsBasedOn.hasDifferentUniverse	variable B is based on a previous variable A, but the universe is different.
+
 IsBasedOn.hasDifferentConcept	variable B is based on a previous variable A, but the concept measured is different.
+
 IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A but has a different value domain, either substantive value domain or sentinel value domain
+
 IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but the UnitType is different
 	
 
 maybe another angle here when we transform variable. And it cross previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
+
 IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
+
 IsBasedOn.Imputation	variable B is based on a previous variable A. the content of the component of the dataset corresponding to the variable B is changed by imputation process. 
 
 
