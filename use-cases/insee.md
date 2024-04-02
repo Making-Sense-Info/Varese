@@ -58,10 +58,15 @@ Description. In this case we have to define a more complexe universe.
 in the frame of our question, we can observe the following metadata provided by the producers to describe the relation between variables 
 
 Mapping with a previous variable announcing they are consistant
-Link with  a weighting variable;
-panel (longitudinal or one point in time analysis);
-Caveats indicating the sucessive variables are not consistant;
-Variable built based one or several variables ;
+
+Link with  a weighting variable
+
+panel (longitudinal or one point in time analysis)
+
+Caveats indicating the sucessive variables are not consistant
+
+Variable built based one or several variables
+
 Concept change, or new wording to present the concept
 
 
