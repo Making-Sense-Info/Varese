@@ -89,6 +89,7 @@ a proposal from gesis https://vocabularies.cessda.eu/vocabulary/Variables-Relati
 
 
 The categories we could propose to expand the controlled vocabulary from GESIS is 
+
 IsBasedOn.hasDifferentUniverse	variable B is based on a previous variable A, but the universe is different.
 IsBasedOn.hasDifferentConcept	variable B is based on a previous variable A, but the concept measured is different.
 IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A but has a different value domain, either substantive value domain or sentinel value domain
