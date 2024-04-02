@@ -99,7 +99,8 @@ IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A b
 IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but the UnitType is different
 	
 
-### maybe another angle here when we transform variable. And it cross previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
+### Another angle for variable transforamtion. 
+This crosses previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
 
 IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
 
