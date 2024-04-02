@@ -124,12 +124,12 @@ several possibilites to handle universe defined logicaly ,
 - use intersection of mulitple references to universe
 - use the link with the question and the variable. 
 
-- The basedOn relation has a cardinality 0 1 , so if we want to use several differences at the same time we have to precise how to do that. 
+The basedOn relation has a cardinality 0 1 , so if we want to use several differences at the same time we have to precise how to do that. 
 The based On relation is use to documente how the variables are created. It could be important to compare also variables that are not directly in a lineage relation. So the question is not to have a controlled vocabulary for the basedOn relation , but more generaly a controlled vocabulary to compare variables , that could be used in a mapping for instance. 
 
-- by example the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
+Another point : the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
 
-- relation between variables and weights variable
+another point : relation between variables and weights variable
 
 
 
