@@ -95,25 +95,25 @@ a proposal from gesis https://vocabularies.cessda.eu/vocabulary/Variables-Relati
 
 ### The categories we could propose to expand the controlled vocabulary from GESIS is 
 
-IsBasedOn.hasDifferentUniverse	variable B is based on a previous variable A, but the universe is different.
+- IsBasedOn.hasDifferentUniverse	variable B is based on a previous variable A, but the universe is different.
 
-IsBasedOn.hasDifferentConcept	variable B is based on a previous variable A, but the concept measured is different.
+- IsBasedOn.hasDifferentConcept	variable B is based on a previous variable A, but the concept measured is different.
 
-IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A but has a different value domain, either substantive value domain or sentinel value domain
+- IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A but has a different value domain, either substantive value domain or sentinel value domain
 
-IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but the UnitType is different
+- IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but the UnitType is different
 	
 
 ### Another angle for variable transformation. 
 This crosses previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
 
-IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
+- IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
 
-IsBasedOn.Imputation	variable B is based on a previous variable A. the content of the component of the dataset corresponding to the variable B is changed by imputation process. 
+- IsBasedOn.Imputation	variable B is based on a previous variable A. the content of the component of the dataset corresponding to the variable B is changed by imputation process. 
 
 
 ### Another kind of relation ? 
-Flag to directly convey caveats or information that variables are comparable ?
+- Flag to directly convey caveats or information that variables are comparable ?
 
 
 
@@ -124,12 +124,12 @@ several possibilites to handle universe defined logicaly ,
 - use intersection of mulitple references to universe
 - use the link with the question and the variable. 
 
-The basedOn relation has a cardinality 0 1 , so if we want to use several differences at the same time we have to precise how to do that. 
+- The basedOn relation has a cardinality 0 1 , so if we want to use several differences at the same time we have to precise how to do that. 
 The based On relation is use to documente how the variables are created. It could be important to compare also variables that are not directly in a lineage relation. So the question is not to have a controlled vocabulary for the basedOn relation , but more generaly a controlled vocabulary to compare variables , that could be used in a mapping for instance. 
 
-by example the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
+- by example the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
 
-relation between variables and weights variable
+- relation between variables and weights variable
 
 
 
