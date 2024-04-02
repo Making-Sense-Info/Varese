@@ -57,12 +57,12 @@ Description. In this case we have to define a more complexe universe.
 ### -2 Other bag of observations coming from this analysis
 in the frame of our question, we can observe the following metadata provided by the producers to describe the relation between variables 
 
-    • Mapping with a previous variable announcing they are consistant
-    • Link with  a weighting variable;
-        ◦ panel (longitudinal or one point in time analysis);
-    • Caveats indicating the sucessive variables are not consistant;
-    • Variable built based one or several variables ;
-    Concept change, or new wording to present the concept
+Mapping with a previous variable announcing they are consistant
+Link with  a weighting variable;
+panel (longitudinal or one point in time analysis);
+Caveats indicating the sucessive variables are not consistant;
+Variable built based one or several variables ;
+Concept change, or new wording to present the concept
 
 
 
@@ -124,6 +124,7 @@ The based On relation is use to documente how the variables are created. It coul
 
 by example the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
 
+relation between variables and weights variable
 
 
 
