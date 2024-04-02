@@ -88,7 +88,7 @@ a proposal from gesis https://vocabularies.cessda.eu/vocabulary/Variables-Relati
     06 IsBasedOn.DifferentResponseSchema 	Variable B is based on a previous variable A in the same study (S) programme but a different wave (W). Still, it may have a different name (R_Vn) or label (R_Vl) than Variable A in another wave (W) or not. The question wording is the same, but the response schema (RS) differs. The variable (Var) values scale changes from the registering variable B to a related variable A. Variable A has a given number of measures changed in another wave (W), so the related variable B in the future waves (W) of the same study (S) has measure values increased or decreased ‘n’ to ‘n.’ For instance, Variable A has four values in a prior wave (W): how strongly are you interested in politics? Very strongly (1), strongly (2), not so strongly (3), not at all (4). The variable B is extended and added another value: very strong (1), strongly (2), medium (3), little (4), not at all (5). Different Response Schemas (RS) can be different response scales, such as Likert Scale type, Dichotomous or Trichotomous scales, Semantic differential scales, and other response schemas (RS). Response scale types should be part of the relation type label: e.g., IsBasedOn.DifferentResponseSchema.isTypeLikertScale.
 
 
-The categories we could propose to expand the controlled vocabulary from GESIS is 
+### The categories we could propose to expand the controlled vocabulary from GESIS is 
 
 IsBasedOn.hasDifferentUniverse	variable B is based on a previous variable A, but the universe is different.
 
@@ -99,14 +99,15 @@ IsBasedOn.hasDifferentValueDomain	Variable B is based on a previous variable A b
 IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but the UnitType is different
 	
 
-maybe another angle here when we transform variable. And it cross previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
+### maybe another angle here when we transform variable. And it cross previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
 
 IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
 
 IsBasedOn.Imputation	variable B is based on a previous variable A. the content of the component of the dataset corresponding to the variable B is changed by imputation process. 
 
 
-Another kind of relation, flag to directly convey caveats or information that variables are comparable ?
+### Another kind of relation ? 
+Flag to directly convey caveats or information that variables are comparable ?
 
 
 
@@ -120,7 +121,7 @@ several possibilites to handle universe defined logicaly ,
 The basedOn relation has a cardinality 0 1 , so if we want to use several differences at the same time we have to precise how to do that. 
 The based On relation is use to documente how the variables are created. It could be important to compare also variables that are not directly in a lineage relation. So the question is not to have a controlled vocabulary for the basedOn relation , but more generaly a controlled vocabulary to compare variables , that could be used in a mapping for instance. 
 
-by example the following situatin exist IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
+by example the following situation exists : IsBasedOn.hasDifferentStatisticalProgram	variable B has the same content (Concept, representation, unittype) but is created by another survey
 
 
 
