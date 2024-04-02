@@ -98,7 +98,7 @@ IsBasedOn.hasDifferentUnitType	variable B is based on a previous variable A, but
 maybe another angle here when we transform variable. And it cross previous categories , so it could be an extension, like IsBasedOn.hasDifferentValueDomain.aggregation	
 IsBasedOn.Aggregation	variable B is based on a previous variable A. the representation of the variable B is different in order to correspond to an agregation values of the variable A (gathering of categories or creation of intervalles if variable A is numeric). This case is a subcase 
 IsBasedOn.Imputation	variable B is based on a previous variable A. the content of the component of the dataset corresponding to the variable B is changed by imputation process. 
-![image](https://github.com/Making-Sense-Info/Varese/assets/46076752/6aeb3125-ad11-4944-9d56-e041557581a9)
+
 
 Another kind of relation, flag to directly convey caveats or information that variables are comparable ?
 
