@@ -46,4 +46,8 @@ ConceptualVariable EMPLOYEMENT_STATUS
 		CodeList ACTIVITIES_EU
 ```
 
+### Tracking changes in response domain
+
+Once again, groups? Or based-on properties?
+
 Another possibility would be to regroup represented variables through schemes or groups, but a limit of the current model is that VariableSchemes are for (instance) variables?
