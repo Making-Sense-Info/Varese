@@ -31,3 +31,19 @@ We want to be able to:
 	- both the name and the representation have changed
 	- we want to be able to link those variables one way or another
 - __track changes in response domains__: in 2020 the new version of the official classification ([PCS](https://fr.wikipedia.org/wiki/Professions_et_cat%C3%A9gories_socioprofessionnelles_en_France)) has changed
+
+## Pseudo DDI
+
+### Tracking variable changes
+
+A first option would be to regroup represented variables at the conceptual level:
+
+```
+ConceptualVariable EMPLOYEMENT_STATUS
+	RepresentedVariable SITUA
+		CodeList ACTIVITIES
+	RepresentedVariable SITUAEU
+		CodeList ACTIVITIES_EU
+```
+
+Another possibility would be to regroup represented variables through schemes or groups, but a limit of the current model is that VariableSchemes are for (instance) variables?
