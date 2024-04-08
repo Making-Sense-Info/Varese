@@ -30,7 +30,7 @@ Expected outputs include guidelines on the topics covered and a roadmap for futu
 	- Sciences Po (Lucie, 15 minutes)
     - France Cohortes (Vincent, 15 minutes)
 	- Insee TCM (Romain, 15 minutes)
-	- Constances, variable derivation (Thomas, 15 minutes)
+	- Constances, variable derivation (Constance, 15 minutes)
 
 ### Day 1, 13:30 - 17:00
 
