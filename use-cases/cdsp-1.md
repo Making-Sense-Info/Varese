@@ -39,7 +39,7 @@ ELIPSS Panel (Gp)
   - Annual survey 2023
 - Longitudinal survey (Gp)
   - Digital practices (Gp)
-     *Reusable concepts, conceptual variables, represented variables, code lists for all annual surveys...*
+     *Reusable concepts, conceptual variables, represented variables, code lists for each waves of the same longitudinal project...*
     - Digital practices 2013 - Wave 1 (SU)
     - ...
     - Digital practices 2023 - Wave 9 (SU)
