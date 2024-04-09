@@ -124,26 +124,36 @@ N.B. Absence of answer for 5.5 years on LANGENF  cannot be aligned to 4 (not tal
 ## Example in pseudo-DDI
 
 *Not yet implemented in France Cohortes. Modelisation in DDI format is to be defined.*
+```mermaid
+flowchart TD
+    QUESTION_W1
+    QUESTION_W2
+    CODE_LIST_W1
+    CODE_LIST_W2
+    PHYSICAL_INSTANCE_W1
+    PHYSICAL_INSTANCE_W2
+    VARIABLE_W1
+    VARIABLE_W2
+    CONCEPT
+    
+    VARIABLE_W1 <-->|optional relation| VARIABLE_W2
+    VARIABLE_W1 -->|has| CONCEPT
+    VARIABLE_W2 -->|has| CONCEPT
 
-- Elfe Cohort 
-  - Elfe 2 - 3.5 years campaign 
-    - Source data 
-    - SAS database - raw data
-    - SAS database - clean data
-      - Variables
-        - LANGENF
-          - Question
-          - Codes
-          - Theme
-  - Elfe 5.5 years campaign
-    - Source data 
-    - SAS database - raw data
-    - SAS database - clean data
-      - Variables
-        - LANGENF
-          - Question
-          - Codes
-          - Theme
+    subgraph WAVE1
+        QUESTION_W1 --> VARIABLE_W1
+        CODE_LIST_W1 --> VARIABLE_W1
+        QUESTION_W1 --> CODE_LIST_W1
+        PHYSICAL_INSTANCE_W1 --> VARIABLE_W1
+    end
+
+    subgraph WAVE2
+        QUESTION_W2 --> VARIABLE_W2
+        CODE_LIST_W2 --> VARIABLE_W2
+        QUESTION_W2 --> CODE_LIST_W2
+        PHYSICAL_INSTANCE_W2 --> VARIABLE_W2
+    end
+```
 
 ## Questions and topics for discussion
 
