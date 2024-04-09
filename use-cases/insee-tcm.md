@@ -36,18 +36,43 @@ We want to be able to:
 
 ### Tracking variable changes
 
-A first option would be to regroup represented variables at the conceptual level:
+Documenting the changes could be done by:
+1. grouping represented variables at the conceptual level
+2. typing the changes between variables using a controlled vocabulary
 
-```
-ConceptualVariable EMPLOYEMENT_STATUS
-	RepresentedVariable SITUA
-		CodeList ACTIVITIES
-	RepresentedVariable SITUAEU
-		CodeList ACTIVITIES_EU
+```mermaid
+flowchart TD
+    QUESTION_2019
+    QUESTION_2020
+    CODE_LIST_2019
+    CODE_LIST_2020
+    VARIABLE_2019
+    VARIABLE_2020
+    CONCEPT
+    
+    VARIABLE_2019 <-->|IsBasedOn.hasDifferentVarName| VARIABLE_2020
+    VARIABLE_2019 -->|has| CONCEPT
+    VARIABLE_2020 -->|has| CONCEPT
+
+    subgraph TCM_2019
+        QUESTION_2019 --> VARIABLE_2019
+        CODE_LIST_2019 --> VARIABLE_2019
+        QUESTION_2019 --> CODE_LIST_2019
+    end
+
+    subgraph TCM_2020
+        QUESTION_2020 --> VARIABLE_2020
+        CODE_LIST_2020 --> VARIABLE_2020
+        QUESTION_2020 --> CODE_LIST_2020
+    end
 ```
 
 ### Tracking changes in response domain
 
-Once again, groups? Or based-on properties?
+The above model will indirectly allows to track changes in response domain. However, to specify what has changed (eg mapping between codes) we could make use of specific DDI construct like [ClassificationMap](https://ddialliance.github.io/ddimodel-web/DDI-L-3.3/composite-types/ClassificationMapType/) or [GenericMap](https://ddialliance.github.io/ddimodel-web/DDI-L-3.3/item-types/GenericMap/). 
 
-Another possibility would be to regroup represented variables through schemes or groups, but a limit of the current model is that VariableSchemes are for (instance) variables?
+→ Question: how to link between categories and classification items?
+
+Another possibility would be to regroup represented variables through schemes or groups, but a limit of the current model is that VariableSchemes are for (instance) variables.
+
+→ Should we work at the represented or instance level?
