@@ -121,7 +121,7 @@ For the same variable **LANGENF** we share,
 
 - A variable name
 - A target
-- A similar, but not exact, question. The 5.5 years campaign introduces a frequency notion
+- A similar, but not an exact match, question. The 5.5 years campaign introduces a frequency notion
 
 But the modalities for answer are different.
 
