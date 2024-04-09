@@ -17,6 +17,8 @@ Dataset shared with the research community is a combination of variables from th
 
 ## What do we want to represent?
 
+We want to represent the organisation at high level.
+
 - Detail on what specific aspects of variable representation are important in the context (e.g. lineage, evolutions of concept or representation, etc.)
 
 ## Example in pseudo-DDI
