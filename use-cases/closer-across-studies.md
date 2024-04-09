@@ -20,6 +20,8 @@ To support cross-study discovery identification of comparable variables with com
 - Variables reference their originating question, and derived variabled reference there source variables
 - Variables and questions groups based on the CLOSER Topic vocabulary reference all questions and variables
 
+### Abstract structure
+
 ``` mermaid
 graph TB
 
@@ -39,6 +41,12 @@ graph TB
   CV2 --> CVG[Conceptual Variable Group]
 ```
 
+### Example of variable representation
+
+
+![img](./img/closer-example-image.png)
+
+
 - Describe the repetitive aspect
   - Variables are referenced by the same conceptual variable within a single longitudinal study
   - Definition of a conceptual variable within a study is strongly related to the question item within a questionnaire
@@ -48,15 +56,10 @@ graph TB
 
 - A conceptual group and description will be created at a cross-study level
 - This will be nested within an existing topic / high level conceptual framework
-- Open questions are representation / ontolgies for other contextual information for which Controlled vocabulaires exists
-- Existing vocabularies include mode, geographical coverage
-- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data
+
+- 
 
 
-
-
-
-```
 ## Relevent resources:
 - https://doi.org/10.5281/zenodo.8001540 (Question driven equivalence - IAssist presentation)
 - https://doi.org/10.5281/zenodo.8410617 (Towards Metadata Driven Harmonisation - ESRA presentation)
