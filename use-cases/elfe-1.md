@@ -1,21 +1,42 @@
-# ELFE use case for the DDI representation of variables in repetitive contexts
+# France Cohortes : Elfe use case for the DDI representation of variables in repetitive contexts
 
 ## Introduction
 
-*Elfe is a french cohort (https://www.elfe-france.fr/) following 20000 kids born in 2011, for 20 years. Elfe's retrospective data is in the process of being migrated to France Cohortes.*
+
+France Cohortes (https://francecohortes.org/en/) is a french national infrastructur, with its roots in the academic world of health research, France Cohortes provides expertise in the science and analysis of health data, and is able to offer tools and services tailored to the needs of researchers.
+
+To help them manage the many challenges they face, the France Cohortes national infrastructure :
+- supports research teams running health cohorts throughout the life of the cohort,
+- pools a range of specialised integrated services associated with a secure, high-performance public IT platform,
+- facilitates the collection, processing and ethical re-use of data, guaranteeing respect for the rights and confidentiality of volunteers in cohort studies.
 
 
-*Elfe's use case is interesting as a use case because similar questions will be adapted to the age of the participant:*
+France Cohortes offers specialist services for collecting, securing, processing and sharing research data
 
-* *Target responder: doctor or parents for young participants, participant himself when he is old enough*
+The ultimate aim of France Cohortes is to :
 
-- *Modalities of response*
-- *...*
+- promote and sustain projects and the scientific exploitation of data produced by health cohorts,
+- encourage the emergence of knowledge that can be used to prevent disease and improve care for all or part of the population.
+
+France Cohortes is supported by a Programme d'investissement d'avenir (PIA) managed by the french Research agency, and is placed under the aegis of the Inserm
+(coordinator), Ined, Université Paris-Saclay, Université Paris Cité and Sorbonne Université.
+
+Elfe is a french cohort (https://www.elfe-france.fr/) following 20000 kids born in 2011, for 20 years. Elfe's retrospective data is in the process of being migrated to France Cohortes, and some future data collections might be conducted through France Cohortes' online form tools.
+
+Elfe's use case is interesting as a use case because similar questions will be adapted to the age of the participant:
+- Target respondents:
+  - doctor or parents for young participants
+  - teachers
+  - participant himself when he is old enough
+- Modalities of response
+  - Phone
+  - Online forms
+  - ...
 
 
 ## General description
 
-Elfe has been collecting environmental data on children for over a decade, with heterogeneous modalities (tools for data collection, age range, ...)
+Elfe has been collecting environmental data on children for over a decade, with heterogeneous populations (age range) and ways of collecting data (tools for data collection, target respondent ...)
 
 Next campaign is for 15 years old children, and a pilot has been conducted using France Cohortes tools and infrastructure.
 
@@ -41,9 +62,9 @@ Additionally for a subset of  8000 mother-child participants are collected biolo
 
 ## Sources and variables
 
-For each campaign, a form is defined and presented to participants through various tools. Datamanagement is done in SAS and data is managed in .sas7bdat  SAS database files.
+For each campaign, a form is defined and presented to participants through various tools. Data processing is done in SAS and data is managed in .sas7bdat  SAS database files.
 
-All campaigns and associated variables have been documented extensively, prior prior to migration into France Cohortes infrastructure. This documentation can be accessed publicly through: https://pandora-elfe.inserm.fr
+All campaigns and associated variables have been documented extensively, prior prior to migration into France Cohortes infrastructure. This documentation can be accessed publicly through: [https://pandora-elfe.inserm.fr](https://pandora-elfe.inserm.fr/public/)
 
 For every campaign is provided
 
