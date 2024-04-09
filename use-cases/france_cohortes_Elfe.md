@@ -172,7 +172,7 @@ flowchart TD
     end
 ```
 
-### Question description pseudo DDI
+### Describing the target respondent
 ```mermaid
 flowchart 
     QUESTION_W2
