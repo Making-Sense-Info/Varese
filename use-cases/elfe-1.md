@@ -168,13 +168,5 @@ flowchart
 
 
 
-## Questions and topics for discussion
-
-- How to model the relation between those two variables? 
-- What is the level of description of code alignments that can be used in DDI?
-  - How to describe simple code alignments?
-  - How to describe complex alignments
-  - Is it worth it? In term of interest in research vs effort to attain such a fine level of description
-
 
 
