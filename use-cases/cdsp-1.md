@@ -44,9 +44,9 @@ ELIPSS Panel (Gp)
     - ...
     - Digital practices 2023 - Wave 9 (SU)
 - Cross-sectional surveys (Gp)
-  - Year 2021 (GP)
-    - Inclusive writing 2021 (SU)
+  - Year 2013 (GP)
+    - Fertility and birth control (SU)
       - Metadata package
-         *Reusable concepts, conceptual variables, represented variables, code lists for all annual surveys...*
+         *Reusable concepts, conceptual variables, represented variables, code lists for each cross-sectional survey...*
    
 ## Questions and topics for discussion
