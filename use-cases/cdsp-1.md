@@ -7,7 +7,7 @@
 ## General description
 ELIPSS has a yearly core questionnaire (the Annual survey) to update sociodemgraphic data on panelists. Then, each month a new research survey is collected on a specific topic. The monthly survey can be cross-sectional (one-shot, for instance: a study on inclusive writing) or an additional wave of a longtudinal project (ex. Digital practices (wave 10)).
 
-Dataset shared with the research community is a combination of variable from the monthly survey questionnaire (on a specific topic) and a set of additional sociodemographic data from the Annual survey of the current year. 
+Dataset shared with the research community is a combination of variables from the monthly survey questionnaire (on a specific topic) and a set of additional sociodemographic data from the Annual survey of the current year. 
 
 
 ## Sources and variables
