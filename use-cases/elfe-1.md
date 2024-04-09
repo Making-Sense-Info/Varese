@@ -89,7 +89,7 @@ For every campaign is provided
     - Type
     - Format
     - Description
-    - Themes 1, 2, 3, 4 (eg. "développement psychomoteur","activités quotidiennes de l'enfant")
+    - Themes 1, 2, 3, 4 (eg. "développement psychomoteur","activités quotidiennes de l'enfant", ...)
   - Dictionaries
     - Value
     - Label
