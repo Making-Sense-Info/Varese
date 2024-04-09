@@ -77,13 +77,24 @@ For every campaign is provided
   - ...
 - The form itself in .pdf format
 - A documentation in .docx format
-- A description of variables in .xlsm format
-  - Variable name (in form and database)
-  - Question label
-  - Type
-  - Format
-  - Description
-  - Themes 1, 2, 3, 4 (eg. "développement psychomoteur","activités quotidiennes de l'enfant")
+  - Purpose of study
+  - Details on inclusion criteria
+  - Gold standard for filling the form
+  - Calculated variables
+  - ...
+- A description of variables in .xlsm format with hetergeneous formats and information about
+  - Questions
+    - Variable name (in form and database)
+    - Question label
+    - Type
+    - Format
+    - Description
+    - Themes 1, 2, 3, 4 (eg. "développement psychomoteur","activités quotidiennes de l'enfant")
+  - Dictionaries
+    - Value
+    - Label
+  - Weights to apply to some variables
+  - ...
 
 Only the variables catalog in .xlsm format is informatically parseable.
 
