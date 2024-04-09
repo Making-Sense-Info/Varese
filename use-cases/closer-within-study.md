@@ -11,8 +11,7 @@
  
 To support multiple purposes;
   - a. conceptual variables are created which concord (instance) variables within a single study (data collections on the same partipant sample)
-  - b. cross study conceptual variable groups are created which reference study level conceptual variables
- 
+  - b. thee conceptual variables will be nested within the current higher level topics
 
 ## Sources and variables
 
@@ -44,15 +43,13 @@ graph TB
 - Describe the repetitive aspect
   - Variables are referenced by the same conceptual variable within a single longitudinal study
   - Definition of a conceptual variable within a study is strongly related to the question item within a questionnaire
-  - Conceptual variable groups are used to reference conceptual variables within more than one longitudinal study
 
 ## What do we want to represent?
 
-- A conceptual group and description will be created at a cross-study level
+- Variables which are the result of the response to a set of questions which capture the same concept
 - Open questions are representation / ontolgies for other contextual information for which Controlled vocabulaires exists
-- Existing vocabularies include mode, geographical coverage
+- Existing vocabularies include mode, geographical coverage, respondent
 - Other contextual information which may be candidates for CVs could be explored, e.g. administrative data,  
-- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data
 
 ## Relevent resources:
 - https://doi.org/10.5281/zenodo.8001540 (Question driven equivalence - IAssist presentation)
