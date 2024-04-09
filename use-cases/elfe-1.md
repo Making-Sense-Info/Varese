@@ -155,6 +155,19 @@ flowchart TD
     end
 ```
 
+### Question description pseudo DDI
+```mermaid
+flowchart 
+    QUESTION_W2
+    RESPONSE_UNIT
+    INTERVIEWER_TYPE_CV
+
+    QUESTION_W2 --> RESPONSE_UNIT
+    RESPONSE_UNIT -->     INTERVIEWER_TYPE_CV
+```
+
+
+
 ## Questions and topics for discussion
 
 - How to model the relation between those two variables? 
