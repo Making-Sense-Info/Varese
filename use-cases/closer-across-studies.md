@@ -9,10 +9,8 @@
   - CLOSER will not (at least initially) attempt to 'harmonise' variables, e.g. to group variables using DDI Represented Variables
   - We are proposing to compare questions (text and response domain) to identify related variables generated from these questions and assign them to conceptual variables
  
-To support multiple purposes;
-  - a. conceptual variables are created which concord (instance) variables within a single study (data collections on the same partipant sample)
-  - b. cross study conceptual variable groups are created which reference study level conceptual variables
- 
+To support cross-study discovery identification of comparable variables with comparable concepts;
+  - a. cross study conceptual variable groups are created which reference study level conceptual variables
 
 ## Sources and variables
 
@@ -24,21 +22,21 @@ To support multiple purposes;
 
 ``` mermaid
 graph TB
-  Inst1[Instrument] --> QA[Question A]
-  QA[Question A] --> VA1[Variables]
-  QA[Question A] --> VA2[Variables]
-  QA[Question A] --> VA3[Variables]
+
+  StudyA --> VA1
+  StudyA --> VA2
+  StudyA --> VA3
   VA1[Variables] --> CV1[Conceptual Variable A] 
   VA2[Variables] --> CV1[Conceptual Variable A] 
   VA3[Variables] --> CV1[Conceptual Variable A]
-  Inst2[Instrument] --> QB[Question A]
-  QB[Question A] --> VB1[Variables]
-  QB[Question A] --> VB2[Variables]
-  QB[Question A] --> VB3[Variables]
-  VB1[Variables] --> CV1[Conceptual Variable A] 
-  VB2[Variables] --> CV1[Conceptual Variable A] 
-  VB3[Variables] --> CV1[Conceptual Variable A]
-  Inst1[Instrument] -- next data collection -->   Inst2[Instrument] 
+  StudyB --> VB1
+  StudyB --> VB2
+  StudyB --> VB3
+  VB1[Variables] --> CV2[Conceptual Variable B] 
+  VB2[Variables] --> CV2[Conceptual Variable B] 
+  VB3[Variables] --> CV2[Conceptual Variable B]
+  CV1 --> CVG[Conceptual Variable Group]
+  CV2 --> CVG[Conceptual Variable Group]
 ```
 
 - Describe the repetitive aspect
@@ -49,11 +47,16 @@ graph TB
 ## What do we want to represent?
 
 - A conceptual group and description will be created at a cross-study level
+- This will be nested within an existing topic / high level conceptual framework
 - Open questions are representation / ontolgies for other contextual information for which Controlled vocabulaires exists
 - Existing vocabularies include mode, geographical coverage
-- Other contextual information which may be candidates for CVs could be explored, e.g. administrative data,  
 - Other contextual information which may be candidates for CVs could be explored, e.g. administrative data
 
+
+
+
+
+```
 ## Relevent resources:
 - https://doi.org/10.5281/zenodo.8001540 (Question driven equivalence - IAssist presentation)
 - https://doi.org/10.5281/zenodo.8410617 (Towards Metadata Driven Harmonisation - ESRA presentation)
