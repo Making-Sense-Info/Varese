@@ -22,4 +22,23 @@ ELIPSS has a yearly core questionnaire (the Annual survey) to update sociodemgra
 
 ## Example in pseudo-DDI
 
+ELIPPSS (Gp)
+- Resource Package (RP)
+  *Reusable concepts, represented variables...*
+- Annual survey (Gp)
+  - Reusable metadata (RP)
+  
+  - Annual survey 2013 (SU)
+  - ...
+  - Annual survey 2023
+- Longitudinal survey (Gp)
+  - Digital practices (Gp)
+    - Digital practices 2015 - Wave 1 (SU)
+    - Digital practices 2016 - Wave 2 (SU)
+    - ...
+    - Digital practices 2023 - Wave 9 (SU)
+- Cross-sectional surveys (Gp)
+  - Year 2021 (GP)
+    - Inclusive writing 2021 (SU)
+    - 
 ## Questions and topics for discussion
