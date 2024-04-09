@@ -64,11 +64,17 @@ Additionally for a subset of  8000 mother-child participants are collected biolo
 
 For each campaign, a form is defined and presented to participants through various tools. Data processing is done in SAS and data is managed in .sas7bdat  SAS database files.
 
-All campaigns and associated variables have been documented extensively, prior prior to migration into France Cohortes infrastructure. This documentation can be accessed publicly through: [https://pandora-elfe.inserm.fr](https://pandora-elfe.inserm.fr/public/)
+All campaigns and associated variables have been documented extensively prior to migration into France Cohortes infrastructure. This documentation can be accessed publicly through: [https://pandora-elfe.inserm.fr](https://pandora-elfe.inserm.fr/public/)
 
 For every campaign is provided
 
-- A protocol
+- A study protocol
+  - Target population
+  - Inclusion criteria
+  - Consent process
+  - Quick description of forms purpose
+  - External sources of data
+  - ...
 - The form itself in .pdf format
 - A documentation in .docx format
 - A description of variables in .xlsm format
