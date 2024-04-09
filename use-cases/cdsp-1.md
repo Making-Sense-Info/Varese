@@ -28,21 +28,25 @@ SU: StudyUnit
 RP: Resource Package
 
 ELIPSS Panel (Gp)
-- Resource Package (RP)
-  *Reusable concepts, represented variables...*
+- Metadata package (RP)
+  *Reusable concepts, conceptual variables, represented variables, code lists for all surveys in ELIPSS Panel...*
 - Annual survey (Gp)
   - Reusable metadata (RP)
+   *Reusable concepts, conceptual variables, represented variables, code lists for all annual surveys...*
   
   - Annual survey 2013 (SU)
   - ...
   - Annual survey 2023
 - Longitudinal survey (Gp)
   - Digital practices (Gp)
+     *Reusable concepts, conceptual variables, represented variables, code lists for all annual surveys...*
     - Digital practices 2013 - Wave 1 (SU)
     - ...
     - Digital practices 2023 - Wave 9 (SU)
 - Cross-sectional surveys (Gp)
   - Year 2021 (GP)
     - Inclusive writing 2021 (SU)
+      - Metadata package
+         *Reusable concepts, conceptual variables, represented variables, code lists for all annual surveys...*
    
 ## Questions and topics for discussion
