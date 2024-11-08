@@ -18,11 +18,11 @@ From Constances' inclusion questionnaire two collected variables are used to der
 
 From Constances' follow-up questionnaire by asking if the respondents smoke a collected variable capture the current smoking status as *Yes (at least once a day)*, *No or occasionally* and *Missing Value*
 
-In Sapris the somking status also distinguishes between *Regular smokers* and *Occasional smoker* by using two questions.
+In Sapris the smoking status also distinguishes between *Regular smokers* and *Occasional smoker* by using two questions.
 
 ## What do we want to represent?
 
-What we want to represent is the link between Constances and Sapris variable dealing with the changes in questions, codelists and universes.
+What we want to represent is the link between Constances and Sapris variables dealing with the changes in questions, codelists and universes.
 
 ## Precise example in pseudo-DDI
 

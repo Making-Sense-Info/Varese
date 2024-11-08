@@ -1,18 +1,15 @@
 # Insee use case for the DDI representation of variables in repetitive contexts
 
 ## General description 
-### - Provide a description of the general context around the use case
 
-At insee, we have described around 25 studies, some of which are repetitions of the same statistical programme over time and for which we have described the variables represented. Changes over time are documented at the level of the variable represented, i.e. variables that are stable between two surveys are assumed to be carried by the same variable represented. BasedOn relationships are used as much as possible to document the lineage between the represented variables. Analysing the pair of represented variables linked by a basedOn relationship is the simplest way to start assessing whether our existing metadata is sufficient to correctly reuse the variables over time. 
+At Insee, we have described around 25 studies, some of which are repetitions of the same statistical programme over time and for which we have described the variables represented. Changes over time are documented at the level of the variable represented, i.e. variables that are stable between two surveys are assumed to be carried by the same variable represented. BasedOn relationships are used as much as possible to document the lineage between the represented variables. Analysing the pair of represented variables linked by a basedOn relationship is the simplest way to start assessing whether our existing metadata is sufficient to correctly reuse the variables over time. 
 
-## Sources and variables ()
-### - Describe the variable to represent and how the data is produced
-### - Describe the repetitive aspect
+## Sources and variables
 
-In the DUMP of our Colectica database we have around 800 relationships based on that have been described between the variables represented. A first line of exploration is to analyse this specific set of metadata, the largest currently available to us. Our questions will be depicted mainly with one or two examples of statistical programme(s) in a repetitive context, for instance a piori LFS that is currently our epitome for repetitive surveys.
+In the DUMP of our Colectica database we have around 800 relationships based on that have been described between the variables represented. A first line of exploration is to analyse this specific set of metadata, the largest currently available to us. Our questions will be depicted mainly with one or two examples of statistical programme(s) in a repetitive context, for instance a priori LFS that is currently our epitome for repetitive surveys.
 
 
-### - Result of the Analysis of our existing Represented Variables when a basedOn relation exists
+### Result of the Analysis of our existing Represented Variables when a basedOn relation exists
 
 a 'foundational' output would be A typology of 800 basedOn relationships could be created to determine:
 - what type of changes there are between the variables represented in practice (addition of codes, modification of univers, modification of the description, modification of the description to encompass metadata that should be elsewhere (like population or versionrationale)...).
@@ -21,7 +18,7 @@ a 'foundational' output would be A typology of 800 basedOn relationships could b
 
 The tree key aspects stand out from this analysis 
 
-### -1 Description of the universe in a formal way. 
+### Description of the universe in a formal way. 
 In order to compare  the statistics over time one key aspect is to be sure that the universe of interest is the same between the two questions. The producers spontaneously use a logical description of their universe of the variable. is helpfull in this way, The use of this formal description may facilitate description of evolution of the universe is helpfull in this way,.
 
 The following example show how universe can be model logocicaly : 
@@ -54,7 +51,7 @@ So in these first case if we don't know the difference between the universes we 
 A more complexe exemple of universe formally described is found with the RepresentedVariable RAISADM05 , that is asked if (NUSEWEB = 1 ou 2) and ADM3 = 2 and ADM4 = 2, where ADM3 has the label  "In the last twelve months, the respondent has used the Internet for private purposes to contact a government department or public service in order to complete their tax return online".
 Description. In this case we have to define a more complexe universe.
 
-### -2 Other bag of observations coming from this analysis
+### Other bag of observations coming from this analysis
 in the frame of our question, we can observe the following metadata provided by the producers to describe the relation between variables 
 
 - Mapping with a previous variable announcing they are consistant

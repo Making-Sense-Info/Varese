@@ -10,7 +10,7 @@ Constances cohort captures pathologies suffered by the individual the last 12 mo
 Researchers want to retrieve data about Parkinson's disease over time. The usually compute results based on the pathology label (most stable information).
 
 ## Sources and variables
-A multiple-choice question captures pathologie suffered by the individual over the last 12 months. Each choice is represented by one checkbox.
+A multiple-choice question captures pathology suffered by the individual over the last 12 months. Each choice is represented by one checkbox.
 
 Data is stored in a variable where for each follow-Up questionnaire and for each volunteer, pathology code value and pathology label are indicated where checkbox is checked.
 

@@ -1,8 +1,8 @@
 # INSEE use case
 
-For most households studies, Insee uses an harmonised series of questions to get information on the household, the persons and the dwelling (_TCM_ for Tronc Commun des Ménages, or Common Core for Households). It can be used for one-time, or repeated over time for longitudinal surveys. It can be used as a whole or partly depending on the survey’s needs.
+For most households studies, Insee uses an harmonised series of questions to get information about the household, the persons and the dwelling (_TCM_ for Tronc Commun des Ménages, or Common Core for Households). It can be used for one-time, or repeated over time for longitudinal surveys. It can be used as a whole or partly depending on the survey’s needs.
 
-Also, the TCM is splitted in several modules that can be cherry picked by survey as needed.
+Also, the TCM is splitted into several modules that can be cherry picked by survey as needed.
 
 ## General description
 

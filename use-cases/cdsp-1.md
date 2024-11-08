@@ -5,7 +5,7 @@
 In 2012, the Center for socio-political data (CDSP) set up the ELIPSS (Longitudinal Online Survey for the Social Sciences) Panel, an online survey instrument addressed to the academic community. It is a probability panel based on a sample of around 2,600 respondents who every month complete online questionnaires designed by social science research teams.
 
 ## General description
-ELIPSS has a yearly core questionnaire (the Annual survey) to update sociodemgraphic data on panelists. Then, each month a new research survey is collected on a specific topic. The monthly survey can be cross-sectional (one-shot, for instance: fertility and birth control) or an additional wave of a longtudinal project (ex. Digital practices (wave 9)).
+ELIPSS has a yearly core questionnaire (the Annual survey) to update sociodemographic data on panelists. Then, each month a new research survey is collected on a specific topic. The monthly survey can be cross-sectional (one-shot, for instance: fertility and birth control) or an additional wave of a longtudinal project (ex. Digital practices (wave 9)).
 
 ![](./img/cdsp-elipss-studies.PNG)
 
