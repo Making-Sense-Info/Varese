@@ -14,7 +14,7 @@ The different use cases are listed below:
 - 🔗 [Insee](https://www.insee.fr) use cases
 	- [Generic use case, tracking changes over time](insee.md)
 	- [Shared core questions "TCM" use case](insee-tcm.md)
-- 🔗 [CDSP](https://cdsp.sciences-po.fr/fr/)use case
+- 🔗 [CDSP](https://cdsp.sciences-po.fr/fr/) use case
 	- [Organising panel informations](cdsp-1.md)
 - 🔗 [France Cohortes](https://francecohortes.org) use case
 	- [Change in response domain](france-cohortes-elfe.md)

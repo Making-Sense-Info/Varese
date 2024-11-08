@@ -3,7 +3,7 @@
 ## Introduction
 
 
-France Cohortes (https://francecohortes.org/en/) is a french national infrastructur, with its roots in the academic world of health research, France Cohortes provides expertise in the science and analysis of health data, and is able to offer tools and services tailored to the needs of researchers.
+France Cohortes (https://francecohortes.org/en/) is a french national infrastructure, with its roots in the academic world of health research. France Cohortes provides expertise in the science and analysis of health data, and is able to offer tools and services tailored to the needs of researchers.
 
 To help them manage the many challenges they face, the France Cohortes national infrastructure :
 - supports research teams running health cohorts throughout the life of the cohort,
