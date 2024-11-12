@@ -14,7 +14,7 @@ Users want to retrieve data about Chronic bronchitis or similar concept.
 
 ## Sources and variables
 A multiple-choice question in the medical questionnaire captures pathologies suffered by the individual since birth. Each choice is represented by a yes/no checkbox. For instance, the doctor checked "yes" for ""Chronic bronchitis".
-A multiple-choice question in the follow-up questionnaire captures pathologie suffered by the individual over the last 12 months. Each choice is represented by one checkbox. For instance, the individual checked for "Chronic bronchitis, COPD, emphysema, respiratory insufficiency"
+A multiple-choice question in the follow-up questionnaire captures pathology suffered by the individual over the last 12 months. Each choice is represented by one checkbox. For instance, the individual checked for "Chronic bronchitis, COPD, emphysema, respiratory insufficiency"
 
 
 ## What do we want to represent?
