@@ -10,6 +10,7 @@ Agenda:
 What we have so far:
 - [Guidelines](../deliverables/guidelines.md)
 - [Typology](../deliverables/typology.md)
+- [Comparison overview](https://github.com/Making-Sense-Info/Varese/blob/main/workshops/comparison-overview.md)
 - [Use cases](../uses-cases/README.md)
 - [WIP document](https://docs.google.com/document/d/1_pg73TyHgv1Z7QsPEmd2PLYaYCBaXvvFl487Dh3Ygp8/edit?tab=t.0)
 
