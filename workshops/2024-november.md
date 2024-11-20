@@ -25,7 +25,7 @@ Jon is concerned by that the theoretical solutions provided will necessarily fit
 To-dos:
 - Use cases documentation:
 	- Closer use cases: Jon to quickly review, Romain to port to Google docs
-	- Constances: Romain
+	- Constances: Romain :heavy_check_mark:
 	- Insee: Romain if no Insee colleague show up
 	- CSDP: Lucie if she finds some times to work on the matter
 	- France Cohortes: Vally and Vincent, with help from Romain
